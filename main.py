@@ -12,5 +12,7 @@ def scan_ports(host, start_port, end_port):
             pass
         s.close()
 
+x = input("Type IP: ")
+
 # Example usage
-scan_ports("127.0.0.1", 1, 1024)
+scan_ports(x, 1, 1024)
